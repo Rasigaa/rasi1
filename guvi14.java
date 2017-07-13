@@ -21,3 +21,4 @@ int i=s.nextInt(),k=0,j;
   k=0;
 }
 }
+}
