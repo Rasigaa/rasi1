@@ -8,3 +8,4 @@ for(i=st+1;i<en;i++)
 {if(i%2==0)
 System.out.print(i+" ");
 }}
+}
