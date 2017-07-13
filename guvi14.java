@@ -3,9 +3,7 @@ import java.util.*;
 public class guvi14{
 public static void main(String args[]){
 Scanner s=new Scanner(System.in);
-int i,k=0,j,st=s.nextInt(),en=s.nextInt();
-for(i=st+1;i<en;i++)
-{
+int i=s.nextInt(),k=0,j;
   for(j=2;j<i;j++)
   {
   if(i%j==0)
@@ -15,9 +13,11 @@ for(i=st+1;i<en;i++)
   }
   if(k==0)
   {
-    System.out.print(i);
+    System.out.print(i+" "+"is a prime number");
   }
+  else
+  {
+    System.out.print(i+" "+"is not a prime number");
   k=0;
-}
 }
 }
